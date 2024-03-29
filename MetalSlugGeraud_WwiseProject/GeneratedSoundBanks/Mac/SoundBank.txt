@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	179233414	Play_RDN_Metal			\Default Work Unit\Play_RDN_Metal	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	2473969246	Metal	Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	361212709	MetalFootStep3	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MetalFootStep3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\RDN_Metal\MetalFootStep3		42636
+	381522998	MetalFootStep4	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MetalFootStep4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\RDN_Metal\MetalFootStep4		27672
+	572875344	MetalFootStep2	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MetalFootStep2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\RDN_Metal\MetalFootStep2		34180
+	652325852	MetalFootStep1	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MetalFootStep1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FootStep\RDN_Metal\MetalFootStep1		29624
+
