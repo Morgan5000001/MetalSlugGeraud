@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="Metal" ID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}" WorkUnitID="{82526CE1-EE18-41A9-9FE2-B454A917F275}"/>
+							<ObjectRef Name="Pierre" ID="{03071D1E-8334-430E-A2F7-D491F76E0125}" WorkUnitID="{82526CE1-EE18-41A9-9FE2-B454A917F275}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
@@ -34,6 +34,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="MetalFootStep4" ID="{D1D7F649-B147-40CE-A38A-5DDD6A18EEB3}" ShortID="730026729">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
@@ -56,6 +63,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="MetalFootStep3" ID="{B33B0180-479D-4B5B-887B-44FA41C9B34F}" ShortID="501294567">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
@@ -78,6 +92,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="MetalFootStep2" ID="{7074A9C2-7BDD-406B-A4F6-E490E58B2FF6}" ShortID="746920537">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
@@ -100,6 +121,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="MetalFootStep1" ID="{8566A8D1-C9A7-4E7E-9A7C-6AFACDF2CE8B}" ShortID="494914161">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-18</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
@@ -123,13 +151,210 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RND_Pierre" ID="{176846DA-35F0-49BC-A499-8FFA1BC0B9FF}" ShortID="517087176">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="NormalFootsteps6" ID="{A63DC145-04AB-4007-AFA7-653837363E66}" ShortID="1010430788">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps6" ID="{D140C885-E01A-4794-86ED-77C5596762AF}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841158516"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps6" ID="{D140C885-E01A-4794-86ED-77C5596762AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NormalFootsteps5" ID="{913AC2EF-A4E6-423B-B47B-DD7DAB936E7B}" ShortID="24072179">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps5" ID="{47360EC1-42A6-43CC-B39C-29451EB39C66}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="819224985"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps5" ID="{47360EC1-42A6-43CC-B39C-29451EB39C66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NormalFootsteps4" ID="{4201E25F-07FE-46E9-9A19-EE2BF23A7D48}" ShortID="774361692">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps4" ID="{F09A84A9-B81A-4CE8-9016-23650594B672}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784844279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps4" ID="{F09A84A9-B81A-4CE8-9016-23650594B672}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NormalFootsteps3" ID="{ABF551C0-0F20-48F2-8D4A-92A216F7B86D}" ShortID="930055888">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps3" ID="{D18B50C7-31B6-4CCB-8D30-E7EE85CA8CA2}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440668861"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps3" ID="{D18B50C7-31B6-4CCB-8D30-E7EE85CA8CA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NormalFootsteps2" ID="{51D46F73-8D5A-4870-8FD4-6CD910ADC1E8}" ShortID="1032414255">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps2" ID="{AAE487A2-389A-4E62-82C5-1C3E3BF124C8}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="704130301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps2" ID="{AAE487A2-389A-4E62-82C5-1C3E3BF124C8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="NormalFootsteps" ID="{23890FC8-8D84-4397-93C0-F1F0EA230378}" ShortID="476144617">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NormalFootsteps" ID="{2C51CA61-F540-433A-A586-8EBCB4887973}">
+											<Language>SFX</Language>
+											<AudioFile>NormalFootsteps.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="806271620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="NormalFootsteps" ID="{2C51CA61-F540-433A-A586-8EBCB4887973}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="RDN_Metal" ID="{02B85E04-28D4-4D26-86A6-C65FD5C1A5E1}"/>
 							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="RND_Pierre" ID="{176846DA-35F0-49BC-A499-8FFA1BC0B9FF}"/>
+							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Metal" ID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
+								<ItemList>
+									<ItemRef Name="RDN_Metal" ID="{02B85E04-28D4-4D26-86A6-C65FD5C1A5E1}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
 			</ChildrenList>

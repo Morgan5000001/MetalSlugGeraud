@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RND_Pierre" ID="{BB47A442-B23A-47F4-8E3C-E93648E17425}">
+					<ChildrenList>
+						<Action Name="" ID="{DD2108CF-A99A-40EF-8C17-167BE99F8E9F}" ShortID="170152564">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_Pierre" ID="{176846DA-35F0-49BC-A499-8FFA1BC0B9FF}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

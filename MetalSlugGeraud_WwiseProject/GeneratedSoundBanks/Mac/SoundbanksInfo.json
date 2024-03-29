@@ -58,6 +58,12 @@
       "GUID": "{122AB9FE-2AEC-4D06-930D-297531E3D68E}",
       "Switches": [
        {
+        "Id": "1788550750",
+        "Name": "Pierre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Pierre",
+        "GUID": "{03071D1E-8334-430E-A2F7-D491F76E0125}"
+       },
+       {
         "Id": "2473969246",
         "Name": "Metal",
         "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
@@ -72,7 +78,7 @@
     "Type": "User",
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
-    "Hash": "{47D0F3DB-5FC3-C6E6-D945-9D9F7FF060FD}",
+    "Hash": "{9CF1ABD3-662F-4D0D-E91F-56B776DC5A6B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
@@ -94,6 +100,14 @@
       "CachePath": "SFX/MetalFootStep4_818F3B66.wem"
      },
      {
+      "Id": "440668861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps3.wav",
+      "CachePath": "SFX/NormalFootsteps3_818F3B66.wem"
+     },
+     {
       "Id": "572875344",
       "Language": "SFX",
       "Streaming": "false",
@@ -108,6 +122,46 @@
       "Location": "Memory",
       "ShortName": "MetalFootStep1.wav",
       "CachePath": "SFX/MetalFootStep1_818F3B66.wem"
+     },
+     {
+      "Id": "704130301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps2.wav",
+      "CachePath": "SFX/NormalFootsteps2_818F3B66.wem"
+     },
+     {
+      "Id": "784844279",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps4.wav",
+      "CachePath": "SFX/NormalFootsteps4_818F3B66.wem"
+     },
+     {
+      "Id": "806271620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps.wav",
+      "CachePath": "SFX/NormalFootsteps_818F3B66.wem"
+     },
+     {
+      "Id": "819224985",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps5.wav",
+      "CachePath": "SFX/NormalFootsteps5_818F3B66.wem"
+     },
+     {
+      "Id": "841158516",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NormalFootsteps6.wav",
+      "CachePath": "SFX/NormalFootsteps6_818F3B66.wem"
      }
     ],
     "Events": [
@@ -133,6 +187,35 @@
         "Id": "652325852"
        }
       ]
+     },
+     {
+      "Id": "1076973970",
+      "Name": "Play_RND_Pierre",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Pierre",
+      "GUID": "{BB47A442-B23A-47F4-8E3C-E93648E17425}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1286848",
+      "DurationMax": "0.2573923",
+      "MediaRefs": [
+       {
+        "Id": "440668861"
+       },
+       {
+        "Id": "704130301"
+       },
+       {
+        "Id": "784844279"
+       },
+       {
+        "Id": "806271620"
+       },
+       {
+        "Id": "819224985"
+       },
+       {
+        "Id": "841158516"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -142,6 +225,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Material",
       "GUID": "{122AB9FE-2AEC-4D06-930D-297531E3D68E}",
       "Switches": [
+       {
+        "Id": "1788550750",
+        "Name": "Pierre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Pierre",
+        "GUID": "{03071D1E-8334-430E-A2F7-D491F76E0125}"
+       },
        {
         "Id": "2473969246",
         "Name": "Metal",
@@ -153,6 +242,6 @@
     ]
    }
   ],
-  "FileHash": "{ED0B1496-FFC7-E8EE-3C18-6B2067CA1E77}"
+  "FileHash": "{0D36A480-0582-CDA5-5196-C33F34F2D2F1}"
  }
 }

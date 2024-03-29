@@ -25,12 +25,13 @@
 			<SwitchGroups>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
 					<Switches>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1661994096" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{47D0F3DB-5FC3-C6E6-D945-9D9F7FF060FD}">
+		<SoundBank Id="1661994096" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{9CF1ABD3-662F-4D0D-E91F-56B776DC5A6B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -43,6 +44,10 @@
 					<ShortName>MetalFootStep4.wav</ShortName>
 					<CachePath>SFX/MetalFootStep4_818F3B66.wem</CachePath>
 				</File>
+				<File Id="440668861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps3.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="572875344" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalFootStep2.wav</ShortName>
 					<CachePath>SFX/MetalFootStep2_818F3B66.wem</CachePath>
@@ -50,6 +55,26 @@
 				<File Id="652325852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalFootStep1.wav</ShortName>
 					<CachePath>SFX/MetalFootStep1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="704130301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps2.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="784844279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps4.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="806271620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps_818F3B66.wem</CachePath>
+				</File>
+				<File Id="819224985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps5.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="841158516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps6.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps6_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -61,15 +86,26 @@
 						<MediaRef Id="652325852"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.1286848" DurationMax="0.2573923">
+					<MediaRefs>
+						<MediaRef Id="440668861"/>
+						<MediaRef Id="704130301"/>
+						<MediaRef Id="784844279"/>
+						<MediaRef Id="806271620"/>
+						<MediaRef Id="819224985"/>
+						<MediaRef Id="841158516"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
 					<Switches>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
 						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{43771F87-A93B-7E00-3ECC-0FF610E4F53D}</FileHash>
+	<FileHash>{C4532DBE-1ED5-1D25-4F46-FB5DF67D0647}</FileHash>
 </SoundBanksInfo>
