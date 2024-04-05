@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "475414361",
+    "Type": "User",
+    "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
+    "Language": "SFX",
+    "Hash": "{A24DF915-C70D-1689-2CA4-4119C45E435B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
+    "ShortName": "SB_MenuMusic",
+    "Path": "SB_MenuMusic.bnk",
+    "Media": [
+     {
+      "Id": "427073833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuLoop.wav",
+      "CachePath": "SFX/MenuLoop_FBC78EF0.wem"
+     },
+     {
+      "Id": "759811360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuStart.wav",
+      "CachePath": "SFX/MenuStart_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1819622850",
+      "Name": "Play_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SC_Menu",
+      "GUID": "{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "427073833"
+       },
+       {
+        "Id": "759811360"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0EE7F907-17CE-AFA3-EC83-9CB9F6C1E113}"
+ }
+}

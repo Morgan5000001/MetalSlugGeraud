@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SC_Menu" ID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}">
+					<ChildrenList>
+						<Action Name="" ID="{AA3DD16C-9CDA-4789-9556-DF3C6ACB0EDE}" ShortID="1009627037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Menu" ID="{E1F89D31-D823-47F3-A21D-37AE298726EC}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

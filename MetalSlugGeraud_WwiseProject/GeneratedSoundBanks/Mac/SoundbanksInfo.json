@@ -14,11 +14,56 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "475414361",
+    "Type": "User",
+    "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
+    "Language": "SFX",
+    "Hash": "{A24DF915-C70D-1689-2CA4-4119C45E435B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
+    "ShortName": "SB_MenuMusic",
+    "Path": "SB_MenuMusic.bnk",
+    "Media": [
+     {
+      "Id": "427073833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuLoop.wav",
+      "CachePath": "SFX/MenuLoop_FBC78EF0.wem"
+     },
+     {
+      "Id": "759811360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuStart.wav",
+      "CachePath": "SFX/MenuStart_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1819622850",
+      "Name": "Play_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SC_Menu",
+      "GUID": "{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "427073833"
+       },
+       {
+        "Id": "759811360"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{ADF34955-FE48-AF83-76BB-EECE809333FF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,6 +95,14 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "2379520782",
+      "Name": "GP_Menu",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Menu",
+      "GUID": "{B3BB93F0-2355-48A5-9A18-666368EE1B14}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3865314626",
@@ -74,14 +127,14 @@
     ]
    },
    {
-    "Id": "1661994096",
+    "Id": "3617436255",
     "Type": "User",
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
-    "Hash": "{53805E8F-1658-15D9-0AE8-60794F831155}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
-    "ShortName": "SoundBank",
-    "Path": "SoundBank.bnk",
+    "Hash": "{37069F80-F755-A339-D8A2-9DC1E220B1B9}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FootStep",
+    "ShortName": "SB_FootStep",
+    "Path": "SB_FootStep.bnk",
     "Media": [
      {
       "Id": "361212709",
@@ -242,6 +295,6 @@
     ]
    }
   ],
-  "FileHash": "{89734AA4-7FDD-1AC3-9685-3B7B6CB23738}"
+  "FileHash": "{7A83A590-B6DA-7AAA-3391-1E0E29A01805}"
  }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{A24DF915-C70D-1689-2CA4-4119C45E435B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
+			<ShortName>SB_MenuMusic</ShortName>
+			<Path>SB_MenuMusic.bnk</Path>
+			<Media>
+				<File Id="427073833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuLoop.wav</ShortName>
+					<CachePath>SFX/MenuLoop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="759811360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuStart.wav</ShortName>
+					<CachePath>SFX/MenuStart_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1819622850" Name="Play_SC_Menu" ObjectPath="\Events\Default Work Unit\Play_SC_Menu" GUID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="427073833"/>
+						<MediaRef Id="759811360"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{448C292D-83ED-046E-9CFF-D200584493F8}</FileHash>
+</SoundBanksInfo>
