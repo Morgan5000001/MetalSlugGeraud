@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{0791C379-74E3-6CFB-295F-2F3F5B1820B6}",
+    "Hash": "{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
@@ -135,14 +135,14 @@
     ]
    },
    {
-    "Id": "800799180",
+    "Id": "649986797",
     "Type": "User",
     "GUID": "{8DCF3529-1857-4788-96A3-A107A127FA39}",
     "Language": "SFX",
-    "Hash": "{19D8ED47-DC3C-03BA-4883-D276BF2ED0A3}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Sword",
-    "ShortName": "SB_Sword",
-    "Path": "SB_Sword.bnk",
+    "Hash": "{1AB33636-3B36-5254-2743-61EA4F512971}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Weapon",
+    "ShortName": "SB_Weapon",
+    "Path": "SB_Weapon.bnk",
     "Media": [
      {
       "Id": "114855330",
@@ -183,6 +183,14 @@
       "Location": "Memory",
       "ShortName": "sword-002.wav",
       "CachePath": "SFX/sword-002_818F3B66.wem"
+     },
+     {
+      "Id": "763865743",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "explosion.wav",
+      "CachePath": "SFX/explosion_818F3B66.wem"
      }
     ],
     "Events": [
@@ -209,6 +217,20 @@
        },
        {
         "Id": "710049256"
+       }
+      ]
+     },
+     {
+      "Id": "2514707895",
+      "Name": "Play_SFX_Explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Explosion",
+      "GUID": "{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.73290443",
+      "DurationMax": "0.8226575",
+      "MediaRefs": [
+       {
+        "Id": "763865743"
        }
       ]
      }
@@ -451,6 +473,6 @@
     ]
    }
   ],
-  "FileHash": "{BF2C7324-07F2-8AF6-F086-6E379BCF98B5}"
+  "FileHash": "{B4A8C1AC-2FFA-CDE4-56B9-16785C66366C}"
  }
 }

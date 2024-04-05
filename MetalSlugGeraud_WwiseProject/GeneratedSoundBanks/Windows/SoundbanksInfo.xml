@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{0791C379-74E3-6CFB-295F-2F3F5B1820B6}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -60,10 +60,10 @@
 				<Event Id="74438180" Name="Stop_SC_Menu" ObjectPath="\Events\Default Work Unit\Stop_SC_Menu" GUID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="800799180" Type="User" GUID="{8DCF3529-1857-4788-96A3-A107A127FA39}" Language="SFX" Hash="{19D8ED47-DC3C-03BA-4883-D276BF2ED0A3}">
-			<ObjectPath>\SoundBanks\Default Work Unit\SB_Sword</ObjectPath>
-			<ShortName>SB_Sword</ShortName>
-			<Path>SB_Sword.bnk</Path>
+		<SoundBank Id="649986797" Type="User" GUID="{8DCF3529-1857-4788-96A3-A107A127FA39}" Language="SFX" Hash="{1AB33636-3B36-5254-2743-61EA4F512971}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Weapon</ObjectPath>
+			<ShortName>SB_Weapon</ShortName>
+			<Path>SB_Weapon.bnk</Path>
 			<Media>
 				<File Id="114855330" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sword.wav</ShortName>
@@ -85,6 +85,10 @@
 					<ShortName>sword-002.wav</ShortName>
 					<CachePath>SFX/sword-002_818F3B66.wem</CachePath>
 				</File>
+				<File Id="763865743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explosion.wav</ShortName>
+					<CachePath>SFX/explosion_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="1807770338" Name="Play_RND_SwordWhoosh" ObjectPath="\Events\Default Work Unit\Play_RND_SwordWhoosh" GUID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" DurationType="OneShot" DurationMin="0.24949203" DurationMax="0.4406627">
@@ -94,6 +98,11 @@
 						<MediaRef Id="262077039"/>
 						<MediaRef Id="525743962"/>
 						<MediaRef Id="710049256"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2514707895" Name="Play_SFX_Explosion" ObjectPath="\Events\Default Work Unit\Play_SFX_Explosion" GUID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}" DurationType="OneShot" DurationMin="0.73290443" DurationMax="0.8226575">
+					<MediaRefs>
+						<MediaRef Id="763865743"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -199,5 +208,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{21FBF9D1-631F-27FC-2518-51321B363220}</FileHash>
+	<FileHash>{7146DFAF-447B-5B11-076A-104A2A14DA06}</FileHash>
 </SoundBanksInfo>

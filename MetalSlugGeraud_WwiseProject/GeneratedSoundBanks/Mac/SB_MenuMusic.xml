@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{0791C379-74E3-6CFB-295F-2F3F5B1820B6}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -53,5 +53,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B2F3593A-F169-62E0-A953-870074EDB40E}</FileHash>
+	<FileHash>{0A099DA1-1BD1-F123-84CB-54AA7FF36240}</FileHash>
 </SoundBanksInfo>

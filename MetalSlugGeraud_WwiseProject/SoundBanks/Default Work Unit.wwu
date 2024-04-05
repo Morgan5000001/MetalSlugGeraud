@@ -22,8 +22,9 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="SB_Sword" ID="{8DCF3529-1857-4788-96A3-A107A127FA39}">
+				<SoundBank Name="SB_Weapon" ID="{8DCF3529-1857-4788-96A3-A107A127FA39}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Explosion" ID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RND_SwordWhoosh" ID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

@@ -95,6 +95,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Explosion" ID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}">
+					<ChildrenList>
+						<Action Name="" ID="{9A4208D2-6A2D-446F-AEE4-1EB1BE4DD9E2}" ShortID="747400425">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Explosion" ID="{DC212A19-3CD2-45F4-A3B3-E32A71C77057}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
