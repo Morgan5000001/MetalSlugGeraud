@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8DCF3529-1857-4788-96A3-A107A127FA39}",
     "Language": "SFX",
-    "Hash": "{1AB33636-3B36-5254-2743-61EA4F512971}",
+    "Hash": "{296D5DB6-12CB-288C-DEDF-12CCA9682FF9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Weapon",
     "ShortName": "SB_Weapon",
     "Path": "SB_Weapon.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "sword-003.wav",
       "CachePath": "SFX/sword-003_818F3B66.wem"
+     },
+     {
+      "Id": "488117437",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "scream.wav",
+      "CachePath": "SFX/scream_818F3B66.wem"
      },
      {
       "Id": "525743962",
@@ -104,10 +112,34 @@
         "Id": "763865743"
        }
       ]
+     },
+     {
+      "Id": "2620856293",
+      "Name": "Play_SFX_Scream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Scream",
+      "GUID": "{8217C50D-9C43-493C-8D22-C986C607B415}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.713288",
+      "DurationMax": "3.713288",
+      "MediaRefs": [
+       {
+        "Id": "488117437"
+       }
+      ]
+     },
+     {
+      "Id": "911684419",
+      "Name": "Stop_SFX_Scream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Scream",
+      "GUID": "{5F576338-6832-49BB-B22F-222F00DBE15A}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{44448E08-4619-D761-12FE-F39551B17D8A}"
+  "FileHash": "{50981181-4B30-8BA7-1498-1AE756688C14}"
  }
 }

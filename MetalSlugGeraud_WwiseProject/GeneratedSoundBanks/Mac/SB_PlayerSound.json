@@ -6,14 +6,14 @@
   "SoundBankVersion": "150",
   "SoundBanks": [
    {
-    "Id": "3617436255",
+    "Id": "1674255911",
     "Type": "User",
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
-    "Hash": "{7BB69B23-F0B8-4B53-2306-44E8DF71E00E}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FootStep",
-    "ShortName": "SB_FootStep",
-    "Path": "SB_FootStep.bnk",
+    "Hash": "{01BA28A6-F1A7-5732-1C24-1CA4AC63480F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PlayerSound",
+    "ShortName": "SB_PlayerSound",
+    "Path": "SB_PlayerSound.bnk",
     "Media": [
      {
       "Id": "361212709",
@@ -174,6 +174,6 @@
     ]
    }
   ],
-  "FileHash": "{4615ABF4-27CA-361C-6ACC-2533C8989F65}"
+  "FileHash": "{81341747-C45A-EDE3-AE5C-1775AFF72BA6}"
  }
 }

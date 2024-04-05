@@ -106,6 +106,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Scream" ID="{8217C50D-9C43-493C-8D22-C986C607B415}">
+					<ChildrenList>
+						<Action Name="" ID="{4D30785A-C5E4-4821-9797-1DF46C21CFA3}" ShortID="446174471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Scream" ID="{C5C9D7B0-C4F2-4560-9212-E6780F04A15E}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Scream" ID="{5F576338-6832-49BB-B22F-222F00DBE15A}">
+					<ChildrenList>
+						<Action Name="" ID="{060577AE-C91E-44A5-A999-21A12D66361E}" ShortID="330518241">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Scream" ID="{C5C9D7B0-C4F2-4560-9212-E6780F04A15E}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

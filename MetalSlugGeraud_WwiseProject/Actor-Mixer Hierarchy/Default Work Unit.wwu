@@ -891,6 +891,28 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="SFX_Scream" ID="{C5C9D7B0-C4F2-4560-9212-E6780F04A15E}" ShortID="718212493">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5BDAF9F9-DD59-49D4-B6D9-736865CDBFDF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C5B07CF1-5C2A-4A73-B390-908BC9D6DAFA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="scream" ID="{6E3095C7-8F0D-4404-A1D1-3D2F72516CE4}">
+									<Language>SFX</Language>
+									<AudioFile>scream.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="488117437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="scream" ID="{6E3095C7-8F0D-4404-A1D1-3D2F72516CE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Sound Name="SFX_Explosion" ID="{DC212A19-3CD2-45F4-A3B3-E32A71C77057}" ShortID="537739105">
@@ -923,7 +945,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="explosion" ID="{15A3EA9D-D1DF-4574-983A-5247FC86BFD1}">
+						<AudioFileSource Name="explosion" ID="{6EF711A3-2913-4ED7-8487-B21960A37B69}">
 							<Language>SFX</Language>
 							<AudioFile>explosion.wav</AudioFile>
 							<MediaIDList>
@@ -932,7 +954,7 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="explosion" ID="{15A3EA9D-D1DF-4574-983A-5247FC86BFD1}" Platform="Linked"/>
+						<ActiveSource Name="explosion" ID="{6EF711A3-2913-4ED7-8487-B21960A37B69}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

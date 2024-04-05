@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3617436255" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{7BB69B23-F0B8-4B53-2306-44E8DF71E00E}">
-			<ObjectPath>\SoundBanks\Default Work Unit\SB_FootStep</ObjectPath>
-			<ShortName>SB_FootStep</ShortName>
-			<Path>SB_FootStep.bnk</Path>
+		<SoundBank Id="1674255911" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{01BA28A6-F1A7-5732-1C24-1CA4AC63480F}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_PlayerSound</ObjectPath>
+			<ShortName>SB_PlayerSound</ShortName>
+			<Path>SB_PlayerSound.bnk</Path>
 			<Media>
 				<File Id="361212709" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MetalFootStep3.wav</ShortName>
@@ -77,5 +77,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB95C0C1-5C43-4519-7E43-C1904CCB2BEC}</FileHash>
+	<FileHash>{678937F5-AD71-FE8D-FC37-5EBC5B12964A}</FileHash>
 </SoundBanksInfo>
