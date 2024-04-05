@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="800799180" Type="User" GUID="{8DCF3529-1857-4788-96A3-A107A127FA39}" Language="SFX" Hash="{19D8ED47-DC3C-03BA-4883-D276BF2ED0A3}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Sword</ObjectPath>
+			<ShortName>SB_Sword</ShortName>
+			<Path>SB_Sword.bnk</Path>
+			<Media>
+				<File Id="114855330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword.wav</ShortName>
+					<CachePath>SFX/sword_818F3B66.wem</CachePath>
+				</File>
+				<File Id="161970053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-004.wav</ShortName>
+					<CachePath>SFX/sword-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="262077039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-003.wav</ShortName>
+					<CachePath>SFX/sword-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525743962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-001.wav</ShortName>
+					<CachePath>SFX/sword-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710049256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-002.wav</ShortName>
+					<CachePath>SFX/sword-002_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1807770338" Name="Play_RND_SwordWhoosh" ObjectPath="\Events\Default Work Unit\Play_RND_SwordWhoosh" GUID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" DurationType="OneShot" DurationMin="0.24949203" DurationMax="0.4406627">
+					<MediaRefs>
+						<MediaRef Id="114855330"/>
+						<MediaRef Id="161970053"/>
+						<MediaRef Id="262077039"/>
+						<MediaRef Id="525743962"/>
+						<MediaRef Id="710049256"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4F2E88EB-D1E4-4739-4424-F414EDAB18A5}</FileHash>
+</SoundBanksInfo>
