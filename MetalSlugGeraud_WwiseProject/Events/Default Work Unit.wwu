@@ -73,6 +73,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_SelectionButton" ID="{E4872B82-55E1-45D0-9931-11AAB36252B9}">
+					<ChildrenList>
+						<Action Name="" ID="{EC17EDE8-33A8-48C4-971E-8DED63D94137}" ShortID="600803598">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_SelectionButton" ID="{A320438F-3B5B-4307-8A49-9A44EC02E492}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_SwitchButton" ID="{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}">
+					<ChildrenList>
+						<Action Name="" ID="{8B7CEE1A-7CE3-4D9A-A2A0-7F3EBA8A95D1}" ShortID="991725282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_SwitchButton" ID="{D1FBD051-0175-4445-A2FA-F336C6B65BDE}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

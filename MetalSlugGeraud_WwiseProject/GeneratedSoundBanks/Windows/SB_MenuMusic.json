@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{683A55E1-AC0C-1D2B-6F6B-1BDABC95C4C8}",
+    "Hash": "{0791C379-74E3-6CFB-295F-2F3F5B1820B6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
@@ -38,6 +38,22 @@
       "Location": "Memory",
       "ShortName": "MenuStart.wav",
       "CachePath": "SFX/MenuStart_818F3B66.wem"
+     },
+     {
+      "Id": "852612399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SelectionSoundEffect.wav",
+      "CachePath": "SFX/SelectionSoundEffect_818F3B66.wem"
+     },
+     {
+      "Id": "907686520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SwitchButtonSoundEffect.wav",
+      "CachePath": "SFX/SwitchButtonSoundEffect_818F3B66.wem"
      }
     ],
     "Events": [
@@ -71,6 +87,34 @@
       ]
      },
      {
+      "Id": "3280254048",
+      "Name": "Play_SFX_SelectionButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SelectionButton",
+      "GUID": "{E4872B82-55E1-45D0-9931-11AAB36252B9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2291126",
+      "DurationMax": "1.3796325",
+      "MediaRefs": [
+       {
+        "Id": "852612399"
+       }
+      ]
+     },
+     {
+      "Id": "306136790",
+      "Name": "Play_SFX_SwitchButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SwitchButton",
+      "GUID": "{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0183568",
+      "DurationMax": "1.143067",
+      "MediaRefs": [
+       {
+        "Id": "907686520"
+       }
+      ]
+     },
+     {
       "Id": "74438180",
       "Name": "Stop_SC_Menu",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_SC_Menu",
@@ -83,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{717DE519-E16A-14A9-213B-4FEE39873490}"
+  "FileHash": "{B0EE07A7-97A4-01D1-DC0E-B3FEAB45FE56}"
  }
 }

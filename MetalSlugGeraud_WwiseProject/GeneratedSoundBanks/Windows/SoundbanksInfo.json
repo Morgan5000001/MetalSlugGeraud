@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{683A55E1-AC0C-1D2B-6F6B-1BDABC95C4C8}",
+    "Hash": "{0791C379-74E3-6CFB-295F-2F3F5B1820B6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
@@ -46,6 +46,22 @@
       "Location": "Memory",
       "ShortName": "MenuStart.wav",
       "CachePath": "SFX/MenuStart_818F3B66.wem"
+     },
+     {
+      "Id": "852612399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SelectionSoundEffect.wav",
+      "CachePath": "SFX/SelectionSoundEffect_818F3B66.wem"
+     },
+     {
+      "Id": "907686520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SwitchButtonSoundEffect.wav",
+      "CachePath": "SFX/SwitchButtonSoundEffect_818F3B66.wem"
      }
     ],
     "Events": [
@@ -75,6 +91,34 @@
       "MediaRefs": [
        {
         "Id": "433914112"
+       }
+      ]
+     },
+     {
+      "Id": "3280254048",
+      "Name": "Play_SFX_SelectionButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SelectionButton",
+      "GUID": "{E4872B82-55E1-45D0-9931-11AAB36252B9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2291126",
+      "DurationMax": "1.3796325",
+      "MediaRefs": [
+       {
+        "Id": "852612399"
+       }
+      ]
+     },
+     {
+      "Id": "306136790",
+      "Name": "Play_SFX_SwitchButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SwitchButton",
+      "GUID": "{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0183568",
+      "DurationMax": "1.143067",
+      "MediaRefs": [
+       {
+        "Id": "907686520"
        }
       ]
      },
@@ -407,6 +451,6 @@
     ]
    }
   ],
-  "FileHash": "{F54C9011-2C84-E739-01DC-A5DB93EB0270}"
+  "FileHash": "{BF2C7324-07F2-8AF6-F086-6E379BCF98B5}"
  }
 }

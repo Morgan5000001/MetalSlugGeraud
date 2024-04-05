@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{683A55E1-AC0C-1D2B-6F6B-1BDABC95C4C8}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{0791C379-74E3-6CFB-295F-2F3F5B1820B6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -18,6 +18,14 @@
 					<ShortName>MenuStart.wav</ShortName>
 					<CachePath>SFX/MenuStart_818F3B66.wem</CachePath>
 				</File>
+				<File Id="852612399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SelectionSoundEffect.wav</ShortName>
+					<CachePath>SFX/SelectionSoundEffect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="907686520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SwitchButtonSoundEffect.wav</ShortName>
+					<CachePath>SFX/SwitchButtonSoundEffect_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="1819622850" Name="Play_SC_Menu" ObjectPath="\Events\Default Work Unit\Play_SC_Menu" GUID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}" DurationType="Infinite">
@@ -31,9 +39,19 @@
 						<MediaRef Id="433914112"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3280254048" Name="Play_SFX_SelectionButton" ObjectPath="\Events\Default Work Unit\Play_SFX_SelectionButton" GUID="{E4872B82-55E1-45D0-9931-11AAB36252B9}" DurationType="OneShot" DurationMin="1.2291126" DurationMax="1.3796325">
+					<MediaRefs>
+						<MediaRef Id="852612399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="306136790" Name="Play_SFX_SwitchButton" ObjectPath="\Events\Default Work Unit\Play_SFX_SwitchButton" GUID="{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}" DurationType="OneShot" DurationMin="1.0183568" DurationMax="1.143067">
+					<MediaRefs>
+						<MediaRef Id="907686520"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="74438180" Name="Stop_SC_Menu" ObjectPath="\Events\Default Work Unit\Stop_SC_Menu" GUID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F0E8CBA0-A44F-9923-8E5C-0661624BD39D}</FileHash>
+	<FileHash>{AECACE02-1033-A44D-ADD3-B56710811649}</FileHash>
 </SoundBanksInfo>
