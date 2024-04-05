@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1661994096" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{9CF1ABD3-662F-4D0D-E91F-56B776DC5A6B}">
+		<SoundBank Id="1661994096" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{53805E8F-1658-15D9-0AE8-60794F831155}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="179233414" Name="Play_RDN_Metal" ObjectPath="\Events\Default Work Unit\Play_RDN_Metal" GUID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" DurationType="OneShot" DurationMin="0.15632653" DurationMax="0.24115646">
+				<Event Id="179233414" Name="Play_RDN_Metal" ObjectPath="\Events\Default Work Unit\Play_RDN_Metal" GUID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" DurationType="OneShot" DurationMin="0.14738223" DurationMax="1.0168821">
 					<MediaRefs>
 						<MediaRef Id="361212709"/>
 						<MediaRef Id="381522998"/>
@@ -56,7 +56,7 @@
 						<MediaRef Id="652325852"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.1286848" DurationMax="0.2573923">
+				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.12146227" DurationMax="0.28891307">
 					<MediaRefs>
 						<MediaRef Id="440668861"/>
 						<MediaRef Id="704130301"/>
@@ -77,5 +77,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D90BD27F-D27B-12A9-49D6-40794E6AAC36}</FileHash>
+	<FileHash>{7F88D54A-D501-FCD2-4FCB-02D75C8CC870}</FileHash>
 </SoundBanksInfo>

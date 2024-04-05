@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
-    "Hash": "{9CF1ABD3-662F-4D0D-E91F-56B776DC5A6B}",
+    "Hash": "{53805E8F-1658-15D9-0AE8-60794F831155}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank",
     "ShortName": "SoundBank",
     "Path": "SoundBank.bnk",
@@ -103,8 +103,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RDN_Metal",
       "GUID": "{AECE16F4-FC90-4A14-A26E-BB1A158492A8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.15632653",
-      "DurationMax": "0.24115646",
+      "DurationMin": "0.14738223",
+      "DurationMax": "1.0168821",
       "MediaRefs": [
        {
         "Id": "361212709"
@@ -126,8 +126,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Pierre",
       "GUID": "{BB47A442-B23A-47F4-8E3C-E93648E17425}",
       "DurationType": "OneShot",
-      "DurationMin": "0.1286848",
-      "DurationMax": "0.2573923",
+      "DurationMin": "0.12146227",
+      "DurationMax": "0.28891307",
       "MediaRefs": [
        {
         "Id": "440668861"
@@ -174,6 +174,6 @@
     ]
    }
   ],
-  "FileHash": "{DB13695E-077C-5CE8-8B05-F4D634EEA526}"
+  "FileHash": "{8CADF251-651D-72A0-4DAD-4039CCD4DAEC}"
  }
 }
