@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{A24DF915-C70D-1689-2CA4-4119C45E435B}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{4B960C32-8FA8-6F08-B415-61A78631F321}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="427073833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MenuLoop.wav</ShortName>
 					<CachePath>SFX/MenuLoop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="433914112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>R2_D2_Scream.WAV</ShortName>
+					<CachePath>SFX/R2_D2_Scream_818F3B66.wem</CachePath>
 				</File>
 				<File Id="759811360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MenuStart.wav</ShortName>
@@ -30,6 +34,12 @@
 						<MediaRef Id="759811360"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1832282853" Name="Play_SFX_Nest0rScream" ObjectPath="\Events\Default Work Unit\Play_SFX_Nest0rScream" GUID="{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}" DurationType="OneShot" DurationMin="2.3800626" DurationMax="2.3800626">
+					<MediaRefs>
+						<MediaRef Id="433914112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="74438180" Name="Stop_SC_Menu" ObjectPath="\Events\Default Work Unit\Stop_SC_Menu" GUID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9E6DF49E-9D42-F60A-CAC7-61E048157837}">
@@ -57,7 +67,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3617436255" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{37069F80-F755-A339-D8A2-9DC1E220B1B9}">
+		<SoundBank Id="3617436255" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{7BB69B23-F0B8-4B53-2306-44E8DF71E00E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_FootStep</ObjectPath>
 			<ShortName>SB_FootStep</ShortName>
 			<Path>SB_FootStep.bnk</Path>
@@ -104,7 +114,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="179233414" Name="Play_RDN_Metal" ObjectPath="\Events\Default Work Unit\Play_RDN_Metal" GUID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" DurationType="OneShot" DurationMin="0.14738223" DurationMax="1.0168821">
+				<Event Id="179233414" Name="Play_RDN_Metal" ObjectPath="\Events\Default Work Unit\Play_RDN_Metal" GUID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" DurationType="OneShot" DurationMin="0.13927111" DurationMax="1.0168821">
 					<MediaRefs>
 						<MediaRef Id="361212709"/>
 						<MediaRef Id="381522998"/>
@@ -112,7 +122,7 @@
 						<MediaRef Id="652325852"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.12146227" DurationMax="0.28891307">
+				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.1286848" DurationMax="0.27269763">
 					<MediaRefs>
 						<MediaRef Id="440668861"/>
 						<MediaRef Id="704130301"/>
@@ -133,5 +143,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B27CEF4E-65D5-6B4E-63F9-F447DCE92EC1}</FileHash>
+	<FileHash>{ACF53C95-D908-F469-4E61-698E21D63C20}</FileHash>
 </SoundBanksInfo>

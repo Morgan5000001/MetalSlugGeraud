@@ -13,6 +13,8 @@
 				</SoundBank>
 				<SoundBank Name="SB_MenuMusic" ID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Stop_SC_Menu" ID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Nest0rScream" ID="{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SC_Menu" ID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

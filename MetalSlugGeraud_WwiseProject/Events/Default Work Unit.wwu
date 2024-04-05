@@ -36,6 +36,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Nest0rScream" ID="{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}">
+					<ChildrenList>
+						<Action Name="" ID="{81BE832D-0A2B-4A74-9D08-AFC0984EA418}" ShortID="958565337">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Nest0rScream" ID="{D1152D0D-4F70-43B4-AE12-F7EF41EF9B49}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SC_Menu" ID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}">
+					<ChildrenList>
+						<Action Name="" ID="{E75EE159-AD29-4AD2-B7BA-9E3E3F1D9F19}" ShortID="748580725">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SC_Menu" ID="{E1F89D31-D823-47F3-A21D-37AE298726EC}" WorkUnitID="{C35BB813-E315-45A9-B252-EC4A01759CD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

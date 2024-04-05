@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{A24DF915-C70D-1689-2CA4-4119C45E435B}",
+    "Hash": "{4B960C32-8FA8-6F08-B415-61A78631F321}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "MenuLoop.wav",
       "CachePath": "SFX/MenuLoop_FBC78EF0.wem"
+     },
+     {
+      "Id": "433914112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "R2_D2_Scream.WAV",
+      "CachePath": "SFX/R2_D2_Scream_818F3B66.wem"
      },
      {
       "Id": "759811360",
@@ -55,6 +63,30 @@
         "Id": "759811360"
        }
       ]
+     },
+     {
+      "Id": "1832282853",
+      "Name": "Play_SFX_Nest0rScream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Nest0rScream",
+      "GUID": "{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3800626",
+      "DurationMax": "2.3800626",
+      "MediaRefs": [
+       {
+        "Id": "433914112"
+       }
+      ]
+     },
+     {
+      "Id": "74438180",
+      "Name": "Stop_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SC_Menu",
+      "GUID": "{5EB85CF7-BD37-450B-A127-F127B97B7F2F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    },
@@ -131,7 +163,7 @@
     "Type": "User",
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
-    "Hash": "{37069F80-F755-A339-D8A2-9DC1E220B1B9}",
+    "Hash": "{7BB69B23-F0B8-4B53-2306-44E8DF71E00E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FootStep",
     "ShortName": "SB_FootStep",
     "Path": "SB_FootStep.bnk",
@@ -224,7 +256,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RDN_Metal",
       "GUID": "{AECE16F4-FC90-4A14-A26E-BB1A158492A8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.14738223",
+      "DurationMin": "0.13927111",
       "DurationMax": "1.0168821",
       "MediaRefs": [
        {
@@ -247,8 +279,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Pierre",
       "GUID": "{BB47A442-B23A-47F4-8E3C-E93648E17425}",
       "DurationType": "OneShot",
-      "DurationMin": "0.12146227",
-      "DurationMax": "0.28891307",
+      "DurationMin": "0.1286848",
+      "DurationMax": "0.27269763",
       "MediaRefs": [
        {
         "Id": "440668861"
@@ -295,6 +327,6 @@
     ]
    }
   ],
-  "FileHash": "{7A83A590-B6DA-7AAA-3391-1E0E29A01805}"
+  "FileHash": "{827F19B0-761D-D302-E322-43C7A9FDC327}"
  }
 }

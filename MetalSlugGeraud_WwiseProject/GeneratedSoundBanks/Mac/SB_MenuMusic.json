@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{A24DF915-C70D-1689-2CA4-4119C45E435B}",
+    "Hash": "{4B960C32-8FA8-6F08-B415-61A78631F321}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "MenuLoop.wav",
       "CachePath": "SFX/MenuLoop_FBC78EF0.wem"
+     },
+     {
+      "Id": "433914112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "R2_D2_Scream.WAV",
+      "CachePath": "SFX/R2_D2_Scream_818F3B66.wem"
      },
      {
       "Id": "759811360",
@@ -47,10 +55,34 @@
         "Id": "759811360"
        }
       ]
+     },
+     {
+      "Id": "1832282853",
+      "Name": "Play_SFX_Nest0rScream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Nest0rScream",
+      "GUID": "{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3800626",
+      "DurationMax": "2.3800626",
+      "MediaRefs": [
+       {
+        "Id": "433914112"
+       }
+      ]
+     },
+     {
+      "Id": "74438180",
+      "Name": "Stop_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SC_Menu",
+      "GUID": "{5EB85CF7-BD37-450B-A127-F127B97B7F2F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{0EE7F907-17CE-AFA3-EC83-9CB9F6C1E113}"
+  "FileHash": "{7A5F37FF-C8B0-27EB-D422-865E82235EEC}"
  }
 }
