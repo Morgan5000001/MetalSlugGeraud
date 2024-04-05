@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{4B960C32-8FA8-6F08-B415-61A78631F321}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{683A55E1-AC0C-1D2B-6F6B-1BDABC95C4C8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -143,5 +143,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{413FA683-C048-F8EF-47A5-0803602DC399}</FileHash>
+	<FileHash>{A2ED7A03-AD55-093A-8001-0B6D0AF6F6CA}</FileHash>
 </SoundBanksInfo>
